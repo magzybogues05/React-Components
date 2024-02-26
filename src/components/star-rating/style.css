@@ -1,0 +1,23 @@
+.active{
+    color: #fff700;
+}
+.inactive{
+    color:#000000;
+}
+.star-rating{
+    height: 100vh;
+    width: 100vw;
+    background:pink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.star-rating h2{
+    margin-top:40px;
+}
+
+.star-container{
+    display: flex;
+
+}
