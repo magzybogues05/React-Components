@@ -1,0 +1,15 @@
+.container button{
+    margin-top: 20px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.colorDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#ffffff;
+    font-size: 60px;
+    margin-top: 50px;
+}
