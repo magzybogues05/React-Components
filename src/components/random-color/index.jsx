@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import './style.css'
+import './randomColor.css'
+
 const RandomNumberUtility=(limit)=>{
     return Math.floor(Math.random()*limit);
 }
