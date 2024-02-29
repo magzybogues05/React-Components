@@ -1,0 +1,24 @@
+.qr-code-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    gap:20px;
+    background-color: rgb(228, 233, 252);
+}
+
+.qr-btn{
+    margin-left:3px;
+    
+}
+
+.active{
+    background-color: rgb(35, 105, 191);
+    cursor: pointer;
+    color:white;
+}
+.inactive{
+    background-color: rgb(84, 84, 84);
+    color:rgb(200, 200, 200);
+    opacity: 0.5;
+}

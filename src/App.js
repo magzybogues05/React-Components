@@ -1,5 +1,6 @@
 
 import './App.css';
+import QRCodeGenerator from './components/qr-code-generator';
 import TreeView from './components/tree-view';
 import sideMenu from './components/tree-view/data';
 // import Accordion from './components/accordion';
@@ -33,8 +34,10 @@ function App() {
 
 
       {/* 6. Tree View Component / Menu ui/ Recursive Navigation Menu */}
-      <TreeView menus={sideMenu}/>
+      {/* <TreeView menus={sideMenu}/> */}
 
+      {/* 7. QR code generator */}
+      <QRCodeGenerator/>
 
     </div>
   );
