@@ -1,5 +1,6 @@
 
 import './App.css';
+import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qr-code-generator';
 import TreeView from './components/tree-view';
 import sideMenu from './components/tree-view/data';
@@ -37,7 +38,11 @@ function App() {
       {/* <TreeView menus={sideMenu}/> */}
 
       {/* 7. QR code generator */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+      
+      {/* 8. Light and Dark Mode */}
+      <LightDarkMode/>
 
     </div>
   );
